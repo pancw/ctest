@@ -27,7 +27,7 @@ void show_pointer(void *x)
 	show_bytes((byte_pointer) &x, sizeof(void *));
 }
 
-void main()
+int main()
 {
 	int ival = 12345;
 	float fval = (float) ival;
